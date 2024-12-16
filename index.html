@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- nhúng font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./img/icon.png">
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.png" alt="website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#banner">About Me</a></li>
+            <li class="navbar__link"><a href="#things">Skill</a></li>
+            <li class="navbar__link"><a href="#works">Project</a></li>
+            <li class="navbar__link"><a href="#footer">Contact</a></li>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/banner_img.jpg" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Hello, I'm Hoàng Thị Cẩm Ly</h1>
+          <p>
+          I am a passionate and dynamic programmer dedicated to creating innovative web solutions. 
+          With a natural curiosity and a constant drive to explore new technologies, I thrive on solving complex challenges and building sustainable solutions that bring lasting value to businesses and communities. 
+          My commitment lies in continuous learning and contributing to projects that make a meaningful impact
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+    <div class="container">
+    <div class="section">
+        <h2>Specialized Skills</h2>
+        <div class="skill">
+            <label for="html-css">HTML/CSS</label>
+            <progress id="html-css" value="80" max="100"></progress>
+        </div>
+        <div class="skill">
+            <label for="javascript">JavaScript</label>
+            <progress id="javascript" value="70" max="100"></progress>
+        </div>
+        <div class="skill">
+            <label for="sql">SQL</label>
+            <progress id="sql" value="70" max="100"></progress>
+        </div>
+        <div class="skill">
+            <label for="java">PHP Laravel</label>
+            <progress id="java" value="75" max="100"></progress>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Soft Skills</h2>
+        <div class="skill">
+            <label for="communication">Communication</label>
+            <progress id="communication" value="90" max="100"></progress>
+        </div>
+        <div class="skill">
+            <label for="leadership">Leadership</label>
+            <progress id="leadership" value="65" max="100"></progress>
+        </div>
+        <div class="skill">
+            <label for="problem-solving">Problem Solving</label>
+            <progress id="problem-solving" value="80" max="100"></progress>
+        </div>
+        <div class="skill">
+            <label for="time-management">Time Management</label>
+            <progress id="time-management" value="70" max="100"></progress>
+        </div>
+    </div>
+</div>
+    </section>
+    <!-- works -->
+    <section id="works">
+    <h2 style="font-size: 50px">My Project</h2>
+    <div class="container project">
+    <div class="project-card">
+      <div class="icon-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/022/231/250/original/design-complete-project-icon-style-free-vector.jpg" alt="icon">
+      </div>
+      <h3>Project 1</h3>
+      <p>E-Commerce Website <a href="">For more</a></p>
+      <a href=""><button class="view-button">Go to Project</button></a>
+    </div>
+
+    <div class="project-card">
+      <div class="icon-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/022/231/250/original/design-complete-project-icon-style-free-vector.jpg" alt="icon">
+      </div>
+      <h3>Project 2</h3>
+      <p>Video Sharing Website <a href="https://docs.google.com/document/d/1YC3LV3yy97RrmbxYi7HhBj00lo0KBy9gxmyT2Ii2U_Y/edit?usp=sharing">For more</a></p>
+      <a href="https://github.com/lyhtc/DemoPHP" target="_blank"><button class="view-button">Go to Project</button></a>
+    </div>
+
+    <div class="project-card">
+      <div class="icon-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/022/231/250/original/design-complete-project-icon-style-free-vector.jpg" alt="icon">
+      </div>
+      <h3>Project 3</h3>
+      <p>Comic Website <a href="">For more</a></p>
+      <a href=""><button class="view-button">Go to Project</button></a>
+    </div>
+  </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+    <div class="footer-content">
+    <h3>My Portfolio</h3>
+    <p>Thank you for visiting my portfolio. Connect with me on social media!</p>
+    <ul class="socials">
+        <li><a href="https://www.facebook.com/ly.hoangthicam.14/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/_l_y_htc/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+</div>
+
+<div class="footer-bottom">
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
